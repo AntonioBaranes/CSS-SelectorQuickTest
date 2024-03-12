@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: 	wrap;
+	justify-content: space-evenly;
+}
+
+body div{
+	background-color: white;
+	padding: 2vw;
+	display: flex;
+	justify-content: center;
+}
+
+
+body > div{
+	background-color: white;
+	width: 40vw;
+	height: 40vh;
+	margin: 2vh;
+}
+
+.space-tester div{
+	background-color: red;
+	
+}
+
+.arrow-tester > div{
+	background-color: red;
+	
+}
+
+.comma-tester, div{
+	background-color: red;
+	
+}
+.colon-tester:hover{
+	background-color: red;
+}
+.colonspace-tester div:hover{
+	background-color: red;
+}
+
+.level1{
+	background-color: purple;
+	width: 20vw;
+	height: 20vh;
+}
+.level2{
+	background-color: yellow;
+	width: 10vw;
+	height: 10vh;
+}
